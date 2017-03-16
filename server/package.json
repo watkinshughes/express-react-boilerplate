@@ -1,0 +1,17 @@
+{
+  "name": "express-api",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.0.0",
+    "mongoose": "~3.6.13",
+    "body-parser": "~1.0.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js --exec babel-node --presets es2015,stage-2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-2": "^6.22.0"
+  }
+}
